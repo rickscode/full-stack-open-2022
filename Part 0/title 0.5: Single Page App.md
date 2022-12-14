@@ -1,7 +1,6 @@
 title 0.5: Single Page App
 
-Client->Server: Authentication Request
-Server-->Client: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+Client->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
 
 note over Server:
 200 Response Code
@@ -26,7 +25,7 @@ end note
 Server-->Client: Return spa.js
 
 note over Client:
-Browser executs JS code and requests 
+Browser executes JS code and requests 
 JSON file data from server 
 end note
 
